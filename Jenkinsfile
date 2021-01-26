@@ -5,7 +5,7 @@ pipeline {
 	  
 	    
     }
-   stages {
+   /*stages {
    	stage("SonarQube Analysis"){
         	steps {
                 	withSonarQubeEnv("Sonarqube") {
@@ -25,7 +25,7 @@ pipeline {
                     		}
                 	}
                 }
-	}
+	}*/
        /*stage("upload to nexus") {
       steps {
         script {
